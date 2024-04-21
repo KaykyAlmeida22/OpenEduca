@@ -49,28 +49,54 @@ ODS ONU:
 
 
   **Tela Inicial - Home**
+  ![1](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/07a6ac21-daf6-4e3e-bffc-6a0966476b23)
+
 
   **Tela de Login Alunos**
+  ![2](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/9824e535-22a3-433b-9937-f2e7d2143a77)
+
 
   **Tela de Escolha de Área**
+  ![3](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/efc13723-310d-44ab-b509-1f2ef6cab069)
+
 
   **Tela de Escolha de Aulas**
+   ![4](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/c94fc959-9d83-41dc-a822-84e2394f79c5)
+
 
   **Tela de Visualização de Aulas**
+  ![5](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/27243313-3728-492a-9449-58d6cc56887c)
+
 
   **Tela de Cadastro de Professores**
+  ![6](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/e57dc416-c9eb-41ce-b6bb-33a798c261c0)
+
 
   **Tela de Cadastro de Alunos**
+  ![7](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/7d44cef9-2fd7-434f-8e47-a4fb79373bf5)
+
 
   **Tela de Escolha de Áreas para responder**
+  ![8](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/52821b17-a5cb-4788-8bd6-8deeb87c9759)
+
 
   **Tela de Resposta de Dúvidas**
+  ![9](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/4cdd32d5-0d0d-4822-af4d-5cb9c17a9b82)
+
 
   **Tela de Login de Professores**
+  ![10](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/4a83c153-4c76-4ba0-9266-4adb98afb0b1)
+
 
   **Tela de Como Contribuir**
+  ![11](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/49f09f61-6327-4c1a-a9cf-fff7981fb2b9)
+
 
   **Tela de Desenvolvedores**
+  
+![12](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/d127e2ff-7ed7-433d-91d9-4e7b9452db56)
+![13](https://github.com/KaykyAlmeida22/OpenEduca/assets/103340897/40d4dfc4-51ba-46cd-8fb4-09f6ad86cc39)
+
 
 
 
