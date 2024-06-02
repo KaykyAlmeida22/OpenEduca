@@ -1,0 +1,42 @@
+
+
+body {
+  background-color: #e7efe1;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #343a40;
+}
+
+.louco{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-self: flex-start;
+  margin-bottom: 70px;
+}
+
+.card-img-top {
+  height: 300px;
+}
+.Professora{
+    color: #1fc677;
+}
+.icons{
+    margin-bottom: 15px;
+}
+
+.icone{
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    justify-content: space-between;
+}
