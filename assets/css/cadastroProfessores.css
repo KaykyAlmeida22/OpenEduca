@@ -1,0 +1,109 @@
+main{
+    display: inline-grid;
+    grid-row: inherit;
+    grid-template-columns: 1fr 1fr;
+}
+
+body{
+    margin: 0px;
+}
+
+/* Cor do background temporária */
+/* As cores escolhidas serão temporárias*/
+
+#imagemTelaCadastroProfessores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Assets/backgroundImgPerson.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paragrafoConvite{
+    max-width: 300px;
+    max-height: 600px;
+    padding: 100px;
+    padding-top: 200px;
+    padding-bottom: 130px;
+}
+
+#paragrafoConvite > h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#paragrafoConvite > p{
+    text-align: center;
+    color: white;
+    margin-bottom: 200px;
+}
+
+#icones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.icone{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#divMainCadastro{
+    padding: 100px;
+    background-color: #5370aa;
+}
+
+h6{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mensagemCadastro{
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    padding-bottom: 15px;
+}
+
+#sectionCadastroInline{
+    padding-left: 50px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sectionCadastroInline p{
+    font-size: 20px;
+}
+
+.formSection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-bottom: 2px;
+}
+
+#inputCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+#inputCadastro > input{
+    width: 31.7%;
+}
+
+.textField{
+    border-radius: 10px;
+}
