@@ -98,7 +98,7 @@ function cadastrar(){
     msgError.innerHTML = ''
     
     setTimeout(()=>{
-        window.location.href = '../html/signin.html'
+        window.location.href = '../html/signin-student.html'
     }, 3000)
   
     
@@ -130,6 +130,25 @@ btnConfirm.addEventListener('click', ()=>{
   }
 })
 
+function loginteacher(){
+  window.location.href = "/assets/html/signin-teacher.html";
+}
+
+function loginstudent(){
+  window.location.href = "/assets/html/signin-student.html";
+}
+
+function signupteacher(){
+  window.location.href = "/assets/html/cadastroDeProfessores.html";
+}
+
+function signupstudent(){
+  window.location.href = "/assets/html/CadastroAluno.html";
+}
+
+function goindex(){
+window.location.href = "../../index.html";
+}
 
 
   

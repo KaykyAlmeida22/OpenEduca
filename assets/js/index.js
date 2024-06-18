@@ -1,16 +1,20 @@
-if (localStorage.getItem("token") == null) {
-    alert("Você precisa estar logado para acessar essa página");
-    window.location.href = "./assets/html/singin.html";
+
+function loginteacher(){
+    window.location.href = "/assets/html/signin-teacher.html";
+}
+
+function loginstudent(){
+    window.location.href = "/assets/html/signin-student.html";
+}
+
+function signupteacher(){
+    window.location.href = "/assets/html/cadastroDeProfessores.html";
+}
+
+function signupstudent(){
+    window.location.href = "/assets/html/CadastroAluno.html";
+}
+
+function goindex(){
+    window.location.href = "index.html";
   }
-  
-  const userLogado = JSON.parse(localStorage.getItem("userLogado"));
-  
-  const logado = document.querySelector("#logado");
-  logado.innerHTML = `Olá ${userLogado.nome}`;
-  
-  function sair() {
-    localStorage.removeItem("token");
-    localStorage.removeItem("userLogado");
-    window.location.href = "./assets/html/signin.html";
-  }
-  
