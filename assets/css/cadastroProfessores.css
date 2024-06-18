@@ -107,3 +107,15 @@ h6{
 .textField{
     border-radius: 10px;
 }
+
+.dropdown-loginTeacher-item,
+.dropdown-loginStudent-item,
+.dropdown-signupStudent-item,
+.dropdown-signupTeacher-item{
+  color: #000;
+}
+
+.navbar-brand,
+.nav-link{
+  color: black;
+}
