@@ -11,12 +11,14 @@
     <nav id="pesquisaDeConteúdo">
         <!-- Esta parte será adicionada posteriormente após juntar os vários trechos do código  -->
     </nav>
-
     <main>
         <section id="borderBottomInThis">
             <p class="whiteText">Programação</p>
         </section>
         <div id="secaoDeFiltros">
+            <button class="filtros filtroAtivo" id="all">
+                <p class="whiteText textFiltro">TODOS</p>
+            </button>
             <button class="filtros">
                 <p class="whiteText textFiltro">C++</p>
             </button>
@@ -36,15 +38,27 @@
                 <p class="whiteText textFiltro">HTML</p>
             </button>
         </div>
-
+            
         <!--Esta parte será posteriormente alterada para um Carrosel-->
         <div id="secaoDeConteudos">
             <div class="cardConteudo">
                 <div class="styleCardBorderImg">
                     <img src="../images/javascript.png" alt="Ícone referente ao curso" class="iconeCursoImagem">
                 </div>
+                <p class="tituloCurso whiteText">JavaScript Iniciante ao Avançado, com HTML e CSS</p>
+                <section class="sectionCards">
+                    <img src="../images/iconUser.png" alt="Ícone do Professor do Curso" class="iconeCardCurso">
+                    <p class="textoCardCurso whiteText">By Vitor Freitas</p>
+                    <img src="../images/iconLivro.png" alt="Ícone de Livro" class="iconeCardCurso">
+                    <p class="textoCardCurso whiteText">Programação</p>
+                </section>
+            </div>
+            <div class="cardConteudo">
+                <div class="styleCardBorderImg">
+                    <img src="../images/javascript.png" alt="Ícone referente ao curso" class="iconeCursoImagem">
+                </div>
                 <section>
-                    <p class="tituloCurso whiteText">JavaScript Iniciante ao Avançado, com HTML e CSS</p>
+                    <p class="tituloCurso whiteText">JAVA para Web</p>
                 </section>
                 <section class="sectionCards">
                     <img src="../images/iconUser.png" alt="Ícone do Professor do Curso" class="iconeCardCurso">
@@ -58,7 +72,7 @@
                     <img src="../images/javascript.png" alt="Ícone referente ao curso" class="iconeCursoImagem">
                 </div>
                 <section>
-                    <p class="tituloCurso whiteText">JavaScript Iniciante ao Avançado, com HTML e CSS</p>
+                    <p class="tituloCurso whiteText">Desenvolvimento Mobile com Flutter</p>
                 </section>
                 <section class="sectionCards">
                     <img src="../images/iconUser.png" alt="Ícone do Professor do Curso" class="iconeCardCurso">
@@ -67,23 +81,10 @@
                     <p class="textoCardCurso whiteText">Programação</p>
                 </section>
             </div>
-            <div class="cardConteudo">
-                <div class="styleCardBorderImg">
-                    <img src="../images/javascript.png" alt="Ícone referente ao curso" class="iconeCursoImagem">
-                </div>
-                <section>
-                    <p class="tituloCurso whiteText">JavaScript Iniciante ao Avançado, com HTML e CSS</p>
-                </section>
-                <section class="sectionCards">
-                    <img src="../images/iconUser.png" alt="Ícone do Professor do Curso" class="iconeCardCurso">
-                    <p class="textoCardCurso whiteText">By Vitor Freitas</p>
-                    <img src="../images/iconLivro.png" alt="Ícone de Livro" class="iconeCardCurso">
-                    <p class="textoCardCurso whiteText">Programação</p>
-                </section>
-            </div>
-        </div>
+        </div> 
     </main>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/escolhaDeConteudo.js"></script>
 
 </body>
