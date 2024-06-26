@@ -1,0 +1,53 @@
+/* Arquivo: style.css */
+
+/* Body and container adjustments */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+.container {
+  margin-top: 20px;
+}
+
+/* Header adjustments */
+h1 {
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card adjustments */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer adjustments */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #e9ecef;
+  border-top: 1px solid #dee2e6;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
