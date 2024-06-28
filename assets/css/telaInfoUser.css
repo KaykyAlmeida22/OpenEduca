@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: rgb(215,218,238);
+    background: linear-gradient(90deg, rgba(215,218,238,1) 17%, rgba(150,169,198,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 5%;
+    padding: 30px;
+    border-color: rgb(69, 68, 68);
+    background-color: #d2d6f1;
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    min-width: 20%;
+}
+
+#sectionUserNome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.roundBlack{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+}
+
+.descripInfo{
+    margin-bottom: 20px;
+}
+
+#saveInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    border-radius: 15px;
+    height: 30px;
+}
+
+input{
+    width: 88%;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 0;
+    background-color: #fff;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 50px;
+  }
+
+.titleInfo{
+    font-weight: bold;
+    font-size: 1.1em;
+}
