@@ -149,7 +149,3 @@ function signupstudent(){
 function goindex(){
 window.location.href = "../../index.html";
 }
-
-
-  
-  
