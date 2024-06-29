@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 60%; /* Reduz a logo para 60% do tamanho original */
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+}
+
+.menu-links a,
+.menu-links button {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+.menu-links input {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.titulo-pagina {
+    background-color: rgb(247, 247, 247);
+    padding: 20px 0;
+}
+
+.titulo-pagina h1 {
+    margin: 0;
+}
+
+.meus-cursos {
+    margin-top: 10px;
+}
+
+.meus-cursos a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.tab {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tab-item {
+    padding: 10px 20px;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.bg-box {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.tab-data {
+    justify-content: center;
+    text-align: center;
+}
+
+.video-yt {
+    margin: 0px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.video-item {
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.video-item.expanded {
+    grid-column: span 3;
+}
+
+.video-item.expanded iframe {
+    width: 100%;
+    height: 360px;
+}
+
+.video-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.video-item.expanded .overlay {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.titulo-curso {
+    text-align: left;
+}
+
+.titulo-video {
+    font-size: 14px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: black;
+}
+
+.img-logo {
+    display: flex;
+    align-items: center;
+}

@@ -126,11 +126,6 @@ a{
   color: #fff;
   font-weight: bold;
   text-decoration: none;
-  transition: all .3s ease-out;
-}
-
-a:hover{
-  color: #fff;
 }
 
 .fa-eye{
