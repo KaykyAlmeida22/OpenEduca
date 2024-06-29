@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Educa - Cursos</title>
+    <link rel="stylesheet" href="/assets/css/home.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="topo">
+            <div class="logo menu-links">
+                <a href="#" class="img-logo"><img src="/assets/images/logo-shot.png" alt="Open Educa"></a>
+                <a href="telaInfoUser.html" id="logado">OLÁ, </a>
+            </div>
+            <nav class="menu-links">
+                <input type="text" id="search-input" placeholder="Digite o nome do curso">
+                <button id="search-button">BUSCAR</button>
+                <a href="#titulo-pagina" class="show-courses">MEUS CURSOS</a>
+                <button id="logout-button">SAIR</button>
+            </nav>
+        </div>
+    </div>
+    <div class="titulo-pagina" id="titulo-pagina">
+        <div class="container">
+            <h1>Meus Cursos</h1>
+            <nav class="meus-cursos">
+                <a href="#aba-courses-data" class="show-courses">Início</a>&ensp;/&ensp;<span>Meus Cursos</span>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <nav class="tab abas">
+            <a id="aba-proxmox" class="tab-item aba" href="#proxmox">PROXMOX</a>
+            <a id="aba-chatgpt" class="tab-item aba" href="#chatgpt">IA</a>
+            <a id="aba-css" class="tab-item aba" href="#css">CSS</a>
+        </nav>
+        <div id="courses-cards" class="cards-container" style="display: none;">
+            <div class="card" data-tab="proxmox">
+                <img src="/assets/images/proxmox.jpg" alt="Proxmox">
+                <h3>Proxmox</h3>
+            </div>
+            <div class="card" data-tab="chatgpt">
+                <img src="/assets/images/chagpt.jpg" alt="Inteligência Artificial">
+                <h3>Inteligência Artificial</h3>
+            </div>
+            <div class="card" data-tab="chatgpt">
+                <img src="/assets/images/css.png" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+        </div>
+        <div class="bg-box" id="proxmox" style="display: none;">
+            <div class="tab-data">
+                <h3 class="titulo-curso">PROXMOX</h3>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/JbfWz9gFv5A?si=7Ion54wlaa9gBdgT"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 1: Primeiras etapas para a instalação do Proxmox. Um
+                            programa para criar e
+                            gerenciar máquinas virtuais</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/UUU8sRgSXpE?si=xBdhRfZFK0SwJP2i"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 2: Entendendo mais sobre o Proxmox antes de começar a
+                            criar suas Máquinas
+                            Virtuais</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/7oFL8TZmry8?si=IkL43uBvStIUhII6"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 3: Vamos montar nossa primeira máquina Virtual no Proxmox
+                            (Ubuntu)</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/Uojbd0pIoE8?si=hPOy7VV8moFMojL6"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 4: Vamos montar um modelo de uma Máquina Virtual no
+                            Proxmox (Ubuntu)</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/4gVNJkfmF9g?si=OxYM_F_oka9zPtWL"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 5: Vamos montar nossa primeiro Container no Proxmox
+                            (Ubuntu)</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/XPbvRgVU7kY?si=fy3Fewq0uBtoffhG"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 6: Vamos montar um modelo de um container no Proxmox
+                            (Ubuntu)</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/iwsl4CenO-M?si=EmwQ2PWhTjYarjh4"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 7: O que usar, Backups ou Snapshot em nossa maquina
+                            virtual</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/DHzjyfo5a6I?si=Brh__vtYgCovXWHv"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 8: Vamos entender mais como criar e gerencial nossos
+                            usuários</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/MLQ-kWuHRGY?si=_L8FVPZUWuG9TyBM"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 9: Agora vem a hora de configurar nosso Firewall para
+                            garantir a segurança
+                        </p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/LfCAy5ITBFE?si=aQk_1MQXL9gNZwBi"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 10: Vamos configurar nosso sistema de rede criar
+                            diferentes conexões</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/XnJgZFurNAE?si=lkL1M95lXVexrGj-"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 11: Shared Drive no nosso Proxmox para ter todo o nosso
+                            dados no mesmo
+                            lugar</p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/7YwXWjsW8ZY?si=_SoLBWIUoYOMG0er"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">Proxmox Parte 12: Vamos comandar mais que um servidor Proxmox com a
+                            opção Cluster</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-box" id="chatgpt" style="display: none;">
+            <div class="tab-data">
+                <h3 class="titulo-curso">INTELIGÊNCIA ARTIFICIAL</h3>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/WVmso3iB_n4?si=seqExVE5atVf6pCK"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">ChatGPT quais trabalhos que podem ser substituídos pela inteligência
+                            artificial
+                        </p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/kWEtf48ySiw?si=KSeMod0ZWCDDG_zP"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">O que é ChatGPT e como você pode começar a usar esta ferramenta de
+                            inteligência
+                            artificial
+                        </p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/DgMafiJnJok?si=JhmeKzBhwOUCjJIk"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">ChatGPT outras aplicações desta ferramenta que você nem tinha pensado
+                        </p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/ZFc8ppf9TVE?si=HrotcqN2BL5IySfg"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">LLaMA & Alpaca: “ChatGPT” no Linux em sua máquina local</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-box" id="css" style="display: none;">
+            <div class="tab-data">
+                <h3 class="titulo-curso">CSS</h3>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/nCRE-h0sdjA?si=WcAZCb4xLMzpybui"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">CSS para Iniciantes 1/4
+                        </p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/GPfqZXVvM-k?si=yGa5RY7jLfkbVd4P"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">CSS para Iniciantes 2/4
+
+                            artificial
+                        </p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/VZ9e8il8_XI?si=toduVoQqJHNZ_a7-"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">CSS para Iniciantes 3/4
+
+                        </p>
+                    </div>
+                    <div class="video-item">
+                        <div class="overlay"></div>
+                        <iframe class="video-yt" src="https://www.youtube.com/embed/RpEZFpigR9U?si=k0M6yK58VAJb5Fms"
+                            frameborder="0" allowfullscreen></iframe>
+                        <p class="titulo-video">CSS para Iniciantes 4/4
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/home.js" defer></script>
+</body>
+
+</html>
